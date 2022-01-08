@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Pablo Sanchez | Developer</title>
+</head>
+<body>
+    <!-- landing section -->
+    <section id="landing">
+        <div class="container">
+            <h1>
+                Hello, I'm <span class="highlight-1">Pablo Sanchez</span> 
+                <br>I'm a Software Engineer
+            </h1>
+            <button id="check" class="btn btn-landing"><a href="#about">Check Me Out <i class="fas fa-arrow-right"></i></a></button>
+        </div>
+    </section>
+
+    <!-- about section -->
+    <section id="about">
+        <div class="container">
+            <h2>I Build Experiences</h2>
+            <div id="info">
+                <img src="images/headShot.jpg" alt="" id="headshot">
+                <p>
+                    Hello, my name is <span class="highlight-3">Pablo Sanchez</span> . I’m a Computer Science student from New York City with a special interest in Software Development. My inquisitive nature, determination and creativity fuel my everyday work. I’m a dedicated problem solver and I enjoy collaborating with clients to create thoughtful, engaging, functional and fully responsive web applications. My favorite tools to use are C++ and Java. I also enjoy Javascript and React which I use to create intricate modern websites.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section -->
+    <section id="portfolio">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <div id="works">
+                <!-- budget planner project -->
+                <div class="work bpp">
+                    <div class="overlay">
+                        <h3>Budget Planner</h3>
+                        <p>React Project</p>
+                        <button class="btn" id="bp-modal-btn">More Info</button>
+                    </div>
+                </div>
+                <!-- vin decoder project -->
+                <div class="work vd">
+                    <div class="overlay">
+                        <h3>Vin Decoder</h3>
+                        <p>API Project</p>
+                        <button class="btn" id="vd-modal-btn">More Info</button>
+                    </div>
+                </div>
+                <!-- form validation project -->
+                <div class="work fv">
+                    <div class="overlay">
+                        <h3>Sign Up Form</h3>
+                        <p>Form Validation With JavaScript</p>
+                        <button class="btn" id="fv-modal-btn">More Info</button>
+                    </div>
+                </div>
+                <!-- peter smith general contractor -->
+                <div class="work psgc">
+                    <div class="overlay">
+                        <h3>Peter Smith | General Contractor</h3>
+                        <p>Brochure Site</p>
+                        <button class="btn" id="psgc-modal-btn">More Info</button>
+                    </div>
+                </div>
+                <!-- jonny slice -->
+                <div class="work jsk">
+                    <div class="overlay">
+                        <h3>John Schulz Knives</h3>
+                        <p>Wordpress Site</p>
+                        <button class="btn" id="jsk-modal-btn">More Info</button>
+                    </div>
+                </div>
+                <!-- Joel Mandelbaum Musician -->
+                <div class="work jmm">
+                    <div class="overlay">
+                        <h3>Joel Mandelbaum | Musician</h3>
+                        <p>Wordpress Site</p>
+                        <button class="btn" id="jmm-modal-btn">More Info</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- modal1 -->
+    <div class="modal-container" id="bp-modal">
+        <div class="modal" id="modal">
+          <button class="close-btn" id="bp-modal-close">
+            <i class="fa fa-times"></i>
+          </button>
+          <div class="modal-header">
+            <h3>Budget Planner</h3>
+          </div>
+          <div class="modal-content">
+            <p>In this project created a simple form which used both javascript and php for form validation. The validation updates everytime there is a new completed entry, as you can see upon submitting after completing every form element. <br><br>I also incorporated a light / dark theme switcher, which also uses local storage to save the visitor's last used settings.</p>
+            <button class="btn btn-secondary visit-site"><a href="https://psanchez27.github.io/budget-planner/budget-planner/" target="_blank">Visit Site</a></button>
+          </div>
+        </div>
+      </div>
+    <!-- modal2 -->
+    <div class="modal-container" id="vd-modal">
+      <div class="modal" id="modal">
+        <button class="close-btn" id="vd-modal-close">
+          <i class="fa fa-times"></i>
+        </button>
+        <div class="modal-header">
+          <h3>VIN Decoder API App</h3>
+        </div>
+        <div class="modal-content">
+          <p>This web App used the Carmd API to return back a vehicle's year, make and model based off of the car vin entered by the user.</p>
+          <button class="btn btn-secondary visit-site"><a href="https://psanchez27.github.io/vin-decoder/public" target="_blank">Visit Site</a></button>
+        </div>
+      </div>
+    </div>
+    <!-- modal3 -->
+    <div class="modal-container" id="fv-modal">
+      <div class="modal" id="modal">
+        <button class="close-btn" id="fv-modal-close">
+          <i class="fa fa-times"></i>
+        </button>
+        <div class="modal-header">
+          <h3>Jonny Slice</h3>
+        </div>
+        <div class="modal-content">
+          <p>A Simple and beautiful website made using wordpress. In this web app i used elementor to build the page along with other technologies to create this fully functioning website for one of my clients where users can purchase merchandise.</p>
+          <button class="btn btn-secondary visit-site"><a href="https://psanchez27.github.io/vin-decoder/public/" target="_blank">Visit Site</a></button>
+        </div>
+      </div>
+    </div>    
+    <!-- modal4 -->
+    <div class="modal-container" id="psgc-modal">
+        <div class="modal" id="modal">
+          <button class="close-btn" id="psgc-modal-close">
+            <i class="fa fa-times"></i>
+          </button>
+          <div class="modal-header">
+            <h3>VIN Decoder API App</h3>
+          </div>
+          <div class="modal-content">
+            <p>This web App used the Carmd API to return back a vehicle's year, make and model based off of the car vin entered by the user.</p>
+            <button class="btn btn-secondary visit-site"><a href="https://psanchez104.github.io/Vin-Decoder/" target="_blank">Visit Site</a></button>
+        </div>
+      </div>
+      </div>
+      <!-- modal5 -->
+    <div class="modal-container" id="jsk-modal">
+        <div class="modal" id="modal">
+          <button class="close-btn" id="jsk-modal-close">
+            <i class="fa fa-times"></i>
+          </button>
+          <div class="modal-header">
+            <h3>VIN Decoder API App</h3>
+          </div>
+          <div class="modal-content">
+            <p>This web App used the Carmd API to return back a vehicle's year, make and model based off of the car vin entered by the user.</p>
+            <button class="btn btn-secondary visit-site"><a href="https://psanchez104.github.io/Vin-Decoder/" target="_blank">Visit Site</a></button>
+        </div>
+      </div>
+      </div>
+      <!-- modal6 -->
+    <div class="modal-container" id="jmm-modal">
+        <div class="modal" id="modal">
+          <button class="close-btn" id="jmm-modal-close">
+            <i class="fa fa-times"></i>
+          </button>
+          <div class="modal-header">
+            <h3>VIN Decoder API App</h3>
+          </div>
+          <div class="modal-content">
+            <p>This web App used the Carmd API to return back a vehicle's year, make and model based off of the car vin entered by the user.</p>
+            <button class="btn btn-secondary visit-site"><a href="https://psanchez104.github.io/Vin-Decoder/" target="_blank">Visit Site</a></button>
+        </div>
+      </div>
+      </div>
+
+    </section>
+
+    <!-- contact form -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+              <h1 class="form-title">Leave a Message</h1>
+              <div id="completed">
+                  <small>Message Submitted!</small>
+              </div>
+              <div class="form-control">
+                  <input type="text" id="name" placeholder="Name">
+                  <small>Error Message</small>
+              </div>
+              <div class="form-control">
+                  <input type="email" id="email" placeholder="Email">
+                  <small>Error Message</small>
+              </div>
+              <div class="form-control">
+                <textarea name="mesage" id="message" placeholder="Message"></textarea>
+                <small>Error Message</small>
+              </div>
+              <button type="submit" class="btn btn-secondary" id="submit-btn">Sign Up</button>
+          </form>
+        </div>
+    </section>
+
+    <!-- submitted modal -->
+    <div class="modal-container" id="cfs-modal">
+      <div class="modal" id="modal">
+        <button class="close-btn" id="cfs-close">
+          <i class="fa fa-times"></i>
+        </button>
+        <div class="modal-header">
+          <h3>Submission Complete!</h3>
+        </div>
+        <div class="modal-content">
+          <p>Pablo will be in contact with you shortly.</p>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>Content Created and Designed by Pablo Sanchez</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+
+</body>
+</html>
