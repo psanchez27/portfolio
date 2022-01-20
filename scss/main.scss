@@ -325,6 +325,48 @@ h2 {
   cursor: pointer;
 }
 
+#blog-posts {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  .blogs {
+    display: flex;
+    // background: linear-gradient(to bottom right, $color-1-hex, $color-3-hex);
+    padding: 4rem;
+    border-radius: 8px;
+  }
+  .blog {
+    a {
+      text-decoration: none;
+      // color: #fff;
+      color: #000;
+    }
+    .line {
+      height: 1px;
+      border: 2px solid #000;
+      border-radius: 8px;
+      width: 75%;
+      margin: auto;
+      margin-top: 0.5rem;
+    }
+    width: 50%;
+    text-align: center;
+    img {
+      width: 300px;
+      height: 300px;
+      border-radius: 8px;
+      transition: 0.4s;
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+    p {
+      margin: auto;
+      margin-top: 1rem;
+      width: 80%;
+    }
+  }
+}
+
 #contact {
   min-height: 85vh;
 
@@ -414,6 +456,28 @@ footer {
   p {
     text-align: center;
   }
+}
+
+.blog-post {
+  img {
+    width: 650px;
+    margin-top: 1rem;
+  }
+}
+
+.blog-post-2 {
+  img {
+    width: 450px;
+    margin-top: 1rem;
+  }
+}
+
+.post {
+  margin: 1rem 0;
+}
+
+.return {
+  margin-bottom: 2rem;
 }
 
 @media screen and (max-width: 1030px) {
