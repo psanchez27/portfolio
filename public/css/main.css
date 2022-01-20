@@ -234,6 +234,38 @@ h2 {
   outline: none;
   cursor: pointer; }
 
+#blog-posts {
+  padding-top: 2rem;
+  padding-bottom: 2rem; }
+  #blog-posts .blogs {
+    display: flex;
+    padding: 4rem;
+    border-radius: 8px; }
+  #blog-posts .blog {
+    width: 50%;
+    text-align: center; }
+    #blog-posts .blog a {
+      text-decoration: none;
+      color: #000; }
+    #blog-posts .blog .line {
+      height: 1px;
+      border: 2px solid #000;
+      border-radius: 8px;
+      width: 75%;
+      margin: auto;
+      margin-top: 0.5rem; }
+    #blog-posts .blog img {
+      width: 300px;
+      height: 300px;
+      border-radius: 8px;
+      transition: 0.4s; }
+      #blog-posts .blog img:hover {
+        transform: scale(1.05); }
+    #blog-posts .blog p {
+      margin: auto;
+      margin-top: 1rem;
+      width: 80%; }
+
 #contact {
   min-height: 85vh; }
   #contact form {
@@ -302,6 +334,20 @@ footer {
   align-items: center; }
   footer p {
     text-align: center; }
+
+.blog-post img {
+  width: 650px;
+  margin-top: 1rem; }
+
+.blog-post-2 img {
+  width: 450px;
+  margin-top: 1rem; }
+
+.post {
+  margin: 1rem 0; }
+
+.return {
+  margin-bottom: 2rem; }
 
 @media screen and (max-width: 1030px) {
   #landing h1 {
